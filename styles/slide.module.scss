@@ -1,0 +1,28 @@
+.container{
+  width:30vw;
+  height:40vh;
+  position: relative; // Ensure the Swiper container has a relative position
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.cardcontainer{
+  display:flex;
+  width:30vw;
+  height: 40vh;
+  flex-direction: column;
+  position: relative;
+
+}
+
+.card{
+  display:flex;
+  width:30vw;
+  height: 40vh;
+  position: relative;
+  border-radius: 5%;
+}
+
+

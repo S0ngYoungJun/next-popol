@@ -1,0 +1,184 @@
+.root{
+  width:100vw;
+  margin:0;
+  padding:0;
+  height: 400vh;
+  display:flex;
+  justify-content: center;
+}
+
+.main{
+  margin-top:10vh;
+  max-width: 80vw;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  table {
+    width: 35vw;
+    border-collapse: collapse;
+    height:15vh;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    font-size: 150%;
+  }
+  
+  td, th {
+    border-left: none;
+    border-right: none;
+  }
+}
+
+
+@keyframes rotateIn {
+  0% {
+    transform: rotateY(-180deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateY(0);
+    opacity: 1;
+  }
+}
+
+.project {
+  margin-top:30vh;
+  display: flex;
+  justify-content: space-between;
+  animation: rotateIn 1s ease-in-out forwards;
+  width:80vw;
+  flex-direction: column;
+}
+
+.project1, .project2, .project3 {
+  width: 80vw;
+  height: 40vh;
+  display:flex;
+  margin-top:15vh;
+}
+
+.ps1{
+  width:30vw;
+  height:40vh;
+  display:flex;
+  position: relative;
+}
+.info1{
+  width:45vw;
+  margin-left: 5vw;
+  height:40vh;
+  display:flex;
+  // background-color: #FFC7C7;
+  flex-direction: column;
+  border-radius: 5%;
+}
+
+.ps2{
+  width:30vw;
+  height:40vh;
+  display:flex;
+  position: relative;
+  margin-left: 5vw;
+}
+.info2{
+  width:45vw;
+  height:40vh;
+  display:flex;
+  // background-color: #FFC7C7;
+  flex-direction: column;
+  border-radius: 5%;
+}
+
+.ps3{
+  width:30vw;
+  height:40vh;
+  display:flex;
+  position: relative;
+}
+.info3{
+  width:45vw;
+  margin-left: 5vw;
+  height:40vh;
+  display:flex;
+  // background-color: #FFC7C7;
+  flex-direction: column;
+  border-radius: 5%;
+}
+
+.visible {
+  animation: rotateIn 1s ease-in-out forwards; // 회전 애니메이션 추가
+}
+
+.project1:not(.visible) {
+  opacity: 0; /* 애니메이션 발생 전에 숨김 */
+}
+
+.project2:not(.visible) {
+  opacity: 0; /* 애니메이션 발생 전에 숨김 */
+}
+
+.project3:not(.visible) {
+  opacity: 0; /* 애니메이션 발생 전에 숨김 */
+}
+
+
+.stackContainer{
+  width:80vw;
+  height:80vh;
+  margin-top: 30vh;
+  display: flex;
+  animation: fade-in 3s ease forwards; /* 나타나는 애니메이션 */
+}
+
+
+.iconContainer{
+  display: flex;
+ width:40vw;
+ height:80vh;
+ flex-wrap: wrap;
+ animation: fade-in 3s ease forwards;
+}
+
+.icons{
+  display:flex;
+  position: relative;
+  width:8vw;
+  height:16vh;
+
+}
+.takeTh{
+  display:flex;
+  flex-direction: column;
+  width:30vw;
+  margin-left:10vw;
+  font-size: 150%;
+  height:80vh;
+  animation: fade-in 3s ease forwards;
+}
+
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.fadein {
+  animation: fade-in 3s ease forwards;
+}
+
+
+.stackContainer:not(.fadein) {
+  opacity: 0; /* 애니메이션 발생 전에 숨김 */
+}
+
+.iconContainer:not(.fadein) {
+  opacity: 0; /* 애니메이션 발생 전에 숨김 */
+}
