@@ -1,0 +1,29 @@
+.stackContainer{
+  width:80vw;
+  height:80vh;
+  margin-top: 30vh;
+  display: flex;
+}
+
+.iconContainer{
+ display: flex;
+ width:40vw;
+ height:80vh;
+ flex-wrap: wrap;
+}
+
+.icons{
+  display:flex;
+  position: relative;
+  width:8vw;
+  height:16vh;
+
+}
+.takeTh{
+  display:flex;
+  flex-direction: column;
+  width:30vw;
+  margin-left:10vw;
+  font-size: 150%;
+  height:80vh;
+}

@@ -1,0 +1,62 @@
+.project {
+  margin-top:15vh;
+  display: flex;
+  justify-content: space-between;
+  width:80vw;
+  flex-direction: column;
+}
+
+.project1, .project2, .project3 {
+  width: 80vw;
+  height: 40vh;
+  display:flex;
+  margin-top:15vh;
+}
+
+.ps1{
+  width:30vw;
+  height:40vh;
+  display:flex;
+  position: relative;
+}
+.info1{
+  width:45vw;
+  margin-left: 5vw;
+  height:40vh;
+  display:flex;
+  // background-color: #FFC7C7;
+  flex-direction: column;
+  border-radius: 5%;
+}
+
+.ps2{
+  width:30vw;
+  height:40vh;
+  display:flex;
+  position: relative;
+  margin-left: 5vw;
+}
+.info2{
+  width:45vw;
+  height:40vh;
+  display:flex;
+  // background-color: #FFC7C7;
+  flex-direction: column;
+  border-radius: 5%;
+}
+
+.ps3{
+  width:30vw;
+  height:40vh;
+  display:flex;
+  position: relative;
+}
+.info3{
+  width:45vw;
+  margin-left: 5vw;
+  height:40vh;
+  display:flex;
+  // background-color: #FFC7C7;
+  flex-direction: column;
+  border-radius: 5%;
+}
