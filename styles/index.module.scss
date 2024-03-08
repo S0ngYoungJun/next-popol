@@ -2,29 +2,48 @@
   width:100vw;
   margin:0;
   padding:0;
-  height: 400vh;
   display:flex;
   justify-content: center;
+ 
+}
+.main{
+  width:75vw;
+  
+  .myinfo{
+    display: flex;
+    width:75vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .project {
+    display: flex;
+    justify-content: space-between;
+    width:75vw;
+    height:250vh;
+    flex-direction: column;
+    
+  }
+  
+  .stackContainer{
+    width:75vw;
+    height:100vh;
+    
+    display: flex;
+    justify-content: center;
+  }
 }
 
-.sidebar {
+.navbar {
   position: fixed; /* 사이드바를 화면에 고정합니다. */
-  left: 10vw;
+  display: flex;
+  flex-direction: column;
+
+  left:1vw;
+  width:15vw;
+  height:30vh;
+  font-size: 100%;
   top: 50%; /* 화면의 중앙에서 시작하도록 설정합니다. */
   transform: translateY(-50%);
 }
 
-.project {
-  display: flex;
-  justify-content: space-between;
-  width:80vw;
-  flex-direction: column;
-}
-
-.stackContainer{
-  width:80vw;
-  height:80vh;
-  margin-top: 30vh;
-  display: flex;
-  position: relative;
-}
