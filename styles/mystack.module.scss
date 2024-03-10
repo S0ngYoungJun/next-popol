@@ -1,6 +1,6 @@
 .stackContainer{
-  width:75vw;
-  height:100vh;
+  width:45vw;
+  height:60vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -8,23 +8,25 @@
 
 .iconContainer{
  display: flex;
- width:40vw;
- height:80vh;
+ width:25vw;
+ height:50vh;
  flex-wrap: wrap;
+ background-color: antiquewhite;
 }
 
 .icons{
   display:flex;
   position: relative;
-  width:8vw;
-  height:16vh;
-
+  width:5vw;
+  height:10vh;
+  
 }
 .takeTh{
   display:flex;
   flex-direction: column;
-  width:30vw;
-  margin-left:10vw;
+  width:15vw;
+  margin-left:5vw;
   font-size: 150%;
-  height:80vh;
+  height:50vh;
+  background-color: aqua;
 }

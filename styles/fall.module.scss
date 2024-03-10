@@ -1,4 +1,4 @@
-@keyframes snowflake-fall {
+@keyframes flowerrain-fall {
   0% {
     top: -10%;
   }
@@ -7,7 +7,7 @@
   }
 }
 
-@keyframes snowflake-shake {
+@keyframes flowerrain-shake {
   0%,
   100% {
     transform: translateX(0px);
@@ -17,12 +17,12 @@
   }
 }
 
-.snowflake {
+.flowerrain {
   position: fixed;
   left: 0;
   top: 0;
 
-  .snowflake {
+  .flowerrain {
     pointer-events: none; /* 다른 클릭이나 인터랙션을 방해하지 않도록 */
     color: #fff;
     text-shadow: 0 0 1px #000;
@@ -31,7 +31,7 @@
     z-index: 0;
     user-select: none;
     cursor: default;
-    animation: snowflake-fall 10s linear infinite running,
-      snowflake-shake 3s ease-in-out infinite running;
+    animation: flowerrain-fall 10s linear infinite running,
+      flowerrain-shake 3s ease-in-out infinite running;
   }
 }

@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from 'next/font/local'
-
+import style from "@/styles/header.module.scss"
+import Image from "next/image";
 const myFont = localFont({
   src: '../public/fonts/AppleSDGothicNeoEB.ttf',
   display: 'swap',
@@ -20,7 +21,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={myFont.className}>{children}</body>
+      <body className={myFont.className}>
+        <header className={style.header}>
+          <Image src={"/image/구름하늘.jpg"} fill={true} alt={"구름"}/>
+        </header>
+        {children}
+        <footer className={style.foot}>
+        </footer>
+        </body>
     </html>
   );
 }

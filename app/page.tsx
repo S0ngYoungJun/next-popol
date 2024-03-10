@@ -2,22 +2,29 @@ import styles from "@/styles/index.module.scss";
 import Myinfo from "@/components/Myinfo/myinfo";
 import Mystack from "@/components/Stack/stack";
 import Projects from "@/components/Projects/projects";
-import { BsHouseDoorFill } from 'react-icons/bs';
+import { VscAccount,  } from 'react-icons/vsc';
+import { GoProjectRoadmap } from "react-icons/go";
+import { HiOutlineSquare3Stack3D } from "react-icons/hi2";
+import Flowerrain from "@/components/fallobject";
 
 export default function Home() {
   return (
     <main className={styles.root}>
+      <Flowerrain></Flowerrain>
+      <div className={styles.navbarwrapper}>
       <div className={styles.navbar}>
           <ul>
             <li><a href="#안녕하세요저는송영준입니다."> 
-              <BsHouseDoorFill />
+              <VscAccount size="45"/>
               <span>Home</span>
             </a>
             </li>  
-            <li><a href="#project1">프로젝트 1</a></li>
-            <li><a href="#project2">프로젝트 2</a></li>
-            <li><a href="#project3">프로젝트 3</a></li>
+            <li><a href="#project1"><GoProjectRoadmap size="45"/><span>프로젝트 1</span></a></li>
+            <li><a href="#project2"><GoProjectRoadmap size="45"/><span>프로젝트 1</span></a></li>
+            <li><a href="#project3"><GoProjectRoadmap size="45"/><span>프로젝트 1</span></a></li>
+            <li><a href="#project3"><HiOutlineSquare3Stack3D size="45"/><span>프로젝트 1</span></a></li>
           </ul>
+        </div>
         </div>
      <div className={styles.main}>
         <section className={styles.myinfo} id="안녕하세요저는송영준입니다.">

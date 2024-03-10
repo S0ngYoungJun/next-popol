@@ -2,9 +2,9 @@
 import React, { useState, useEffect } from "react";
 import styles from "../styles/fall.module.scss"; // CSS 모듈로 import
 import { generateRandomNumber } from "./utils/math";
-import IconSnow from "./icons/snow";
+import IconFlower from "./icons/flower";
 
-interface Snowflakes {
+interface Flowerrain {
   left: number;
   fallDelay: number;
   shakeDelay: number;
@@ -13,16 +13,16 @@ interface Snowflakes {
   size: number;
 }
 
-interface SnowflakesProps {
-  count?: number; // 눈송이 개수
+interface FlowerrainProps {
+  count?: number;
 }
 
-export default function Snowflakes({ count = 17 }: SnowflakesProps) {
-  const [snowflake, setSnowflake] = useState<Snowflakes[]>([]);
+export default function Flowerrain({ count = 17 }: FlowerrainProps) {
+  const [flowerrain, setFlowerrain] = useState<Flowerrain[]>([]);
   const isShow = true;
 
   useEffect(() => {
-    const newSnowflake = Array.from({ length: count }).map(() => {
+    const newFlowerrain = Array.from({ length: count }).map(() => {
       const fallDelay = generateRandomNumber(0, 15, { fixed: 2 });
       const shakeDelay = Math.min(
         generateRandomNumber(0, 10, { fixed: 1 }),
@@ -37,18 +37,18 @@ export default function Snowflakes({ count = 17 }: SnowflakesProps) {
         size: generateRandomNumber(12, 18),
       };
     });
-    setSnowflake(newSnowflake);
+    setFlowerrain(newFlowerrain);
   }, []);
 
   return (
     <div
-      className={`${styles.snowflake} ${isShow && snowflake.length ? styles.visible : styles.hidden}`} // CSS 모듈 클래스 적용
+      className={`${styles.flowerrain} ${isShow && flowerrain.length ? styles.visible : styles.hidden}`} // CSS 모듈 클래스 적용
       aria-hidden="true"
     >
-      {snowflake.map((flake, index) => (
+      {flowerrain.map((flake, index) => (
         <div
           key={`flake-${index}`}
-          className={styles.snowflake} // CSS 모듈 클래스 적용
+          className={styles.flowerrain} // CSS 모듈 클래스 적용
           style={{
             left: `${flake.left}%`,
             filter: `blur(${flake.blur}px)`,
@@ -57,7 +57,7 @@ export default function Snowflakes({ count = 17 }: SnowflakesProps) {
             WebkitAnimationDelay: `${flake.fallDelay}s, ${flake.shakeDelay}s`,
           }}
         >
-          <IconSnow/>
+          <IconFlower/>
         </div>
       ))}
     </div>

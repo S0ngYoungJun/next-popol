@@ -1,6 +1,6 @@
 .container{
-  width:25vw;
-  height:45vh;
+  width:15vw;
+  height:35vh;
   position: relative; // Ensure the Swiper container has a relative position
   display:flex;
   align-items: center;
@@ -10,8 +10,8 @@
 
 .cardcontainer{
   display:flex;
-  width:25vw;
-  height: 45vh;
+  width:15vw;
+  height: 35vh;
   flex-direction: column;
   position: relative;
 
@@ -19,8 +19,8 @@
 
 .card{
   display:flex;
-  width:25vw;
-  height: 45vh;
+  width:15vw;
+  height: 35vh;
   position: relative;
   border-radius: 5%;
 }

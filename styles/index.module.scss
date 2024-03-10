@@ -7,11 +7,11 @@
  
 }
 .main{
-  width:75vw;
+  width:45vw;
   
   .myinfo{
     display: flex;
-    width:75vw;
+    width:45vw;
     height:100vh;
     justify-content: center;
     align-items: center;
@@ -19,31 +19,104 @@
   .project {
     display: flex;
     justify-content: space-between;
-    width:75vw;
+    width:45vw;
     height:250vh;
     flex-direction: column;
     
   }
   
   .stackContainer{
-    width:75vw;
+    width:45vw;
     height:100vh;
     
     display: flex;
     justify-content: center;
   }
 }
-
-.navbar {
-  position: fixed; /* 사이드바를 화면에 고정합니다. */
-  display: flex;
-  flex-direction: column;
-
-  left:1vw;
-  width:15vw;
-  height:30vh;
-  font-size: 100%;
-  top: 50%; /* 화면의 중앙에서 시작하도록 설정합니다. */
+.navbarwrapper {
+  position: fixed;
+  top: 50%;
   transform: translateY(-50%);
+  left: 2vw;
+  width: 5vw; // 초기 너비
+  height: 30vh;;
+  z-index: 1000; // 다른 요소 위에 표시하기 위해 z-index 설정
 }
 
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  width: 5vw; // 초기 너비
+  font-size: 20px;
+  border-radius: 10px;
+  height: 30vh; // navbar의 높이
+  transition: width 0.3s ease; // 너비에 대한 transition 추가
+  position: relative; // 상대 위치 설정
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    font-size: 30px;
+    width:5vw;
+    height:30vh;
+
+    li {
+      margin-bottom: 10px; // 각 항목 간격 조정
+      position: relative; // 상대 위치 설정
+      width:10vw;
+      border-radius: 10%;
+
+      &:hover {
+        background-color: lightblue;}
+      a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        border-radius: 100%;
+        width:2vw;
+        height:2.8vh;
+        padding: 10px;
+        position: relative; // 상대 위치 설정
+        transition: width 0.3s ease; // 너비에 대한 transition 추가
+
+        svg {
+          margin-right: 5px;
+          font-size: 40px; // 아이콘 크기 조정
+          position: absolute; // 절대 위치 설정
+          left: 10px; // 아이콘 왼쪽 여백 설정
+          top: 50%; // 아이콘을 수직 중앙으로 정렬
+          transform: translateY(-50%);
+        }
+
+        span {
+          opacity: 0;
+          white-space: nowrap; // 텍스트가 줄 바꿈되지 않도록 설정
+          position: absolute; // 절대 위치 설정
+          left: 3vw; // 텍스트 왼쪽 여백 설정
+          top: 50%; // 텍스트를 수직 중앙으로 정렬
+          transform: translateY(-50%);
+          margin-left:2vw;
+
+          transition: opacity 0.3s ease, margin-left 0.3s ease;
+        }
+
+        &:hover {
+          background-color: lightblue;
+          span {
+          
+            opacity: 1;
+            margin-left: 10px; // 텍스트와 아이콘 사이 간격 조정
+          }
+        }
+      }
+    }
+  }
+}
