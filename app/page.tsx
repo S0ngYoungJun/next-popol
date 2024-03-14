@@ -15,14 +15,14 @@ export default function Home() {
       <div className={styles.navbar}>
           <ul>
             <li><a href="#안녕하세요저는송영준입니다."> 
-              <VscAccount size="45"/>
+              <VscAccount/>
               <span>Home</span>
             </a>
             </li>  
-            <li><a href="#project1"><GoProjectRoadmap size="45"/><span>프로젝트 1</span></a></li>
-            <li><a href="#project2"><GoProjectRoadmap size="45"/><span>프로젝트 1</span></a></li>
-            <li><a href="#project3"><GoProjectRoadmap size="45"/><span>프로젝트 1</span></a></li>
-            <li><a href="#project3"><HiOutlineSquare3Stack3D size="45"/><span>프로젝트 1</span></a></li>
+            <li><a href="#project1"><GoProjectRoadmap /><span>프로젝트 1</span></a></li>
+            <li><a href="#project2"><GoProjectRoadmap /><span>프로젝트 1</span></a></li>
+            <li><a href="#project3"><GoProjectRoadmap /><span>프로젝트 1</span></a></li>
+            <li><a href="#project3"><HiOutlineSquare3Stack3D/><span>프로젝트 1</span></a></li>
           </ul>
         </div>
         </div>

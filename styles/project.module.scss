@@ -17,7 +17,8 @@
 }
 
 .project1, .project2, .project3 {
-  width: 45vw;
+  max-width: 1200px;
+  width: 60vw;
   height: 57.5vh;
   display:flex;
   justify-content: space-around;
@@ -29,15 +30,15 @@
 }
 
 .ps1, .ps3{
-  width:15vw;
+  width:22vw;
   height:45vh;
   display:flex;
   position: relative;
 }
 
 .info1, .info3{
-  width:25vw;
-  height:45vh;
+  width:33vw;
+  height:55vh;
   display:flex;
   
   flex-direction: column;
@@ -45,7 +46,7 @@
 }
 
 .ps2{
-  width:15vw;
+  width:22vw;
   height:45vh;
   display:flex;
   position: relative;
@@ -54,7 +55,7 @@
 
 .info2{
   width:25vw;
-  height:45vh;
+  height:55vh;
   display:flex;
   flex-direction: column;
   border-radius: 5%;
