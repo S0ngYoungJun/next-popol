@@ -18,11 +18,11 @@
 
 .project1, .project2, .project3 {
   max-width: 1200px;
-  width: 60vw;
-  height: 57.5vh;
+  width: 65vw;
+  height: 70vh;
   display:flex;
   justify-content: space-around;
-  font-size: 100%;
+  font-size: 1.2rem;
   background-color: #F5EFE6;
   align-items: center;
   border-radius: 2px;
@@ -30,15 +30,16 @@
 }
 
 .ps1, .ps3{
-  width:22vw;
-  height:45vh;
+  width:30vw;
+  height:60vh;
   display:flex;
   position: relative;
+  box-shadow:0 0 0 0;
 }
 
 .info1, .info3{
-  width:33vw;
-  height:55vh;
+  width:30vw;
+  height:65vh;
   display:flex;
   
   flex-direction: column;
@@ -46,16 +47,17 @@
 }
 
 .ps2{
-  width:22vw;
-  height:45vh;
+  width:30vw;
+  height:60vh;
   display:flex;
   position: relative;
+  box-shadow:0 0 0 0;
  
 }
 
 .info2{
-  width:25vw;
-  height:55vh;
+  width:30vw;
+  height:65vh;
   display:flex;
   flex-direction: column;
   border-radius: 5%;

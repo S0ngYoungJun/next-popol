@@ -14,26 +14,26 @@ export default function Home() {
       <div className={styles.navbarwrapper}>
       <div className={styles.navbar}>
           <ul>
-            <li><a href="#안녕하세요저는송영준입니다."> 
+            <li><a href="#me"> 
               <VscAccount/>
-              <span>Home</span>
+              <span>Intro</span>
             </a>
             </li>  
-            <li><a href="#project1"><GoProjectRoadmap /><span>프로젝트 1</span></a></li>
-            <li><a href="#project2"><GoProjectRoadmap /><span>프로젝트 1</span></a></li>
-            <li><a href="#project3"><GoProjectRoadmap /><span>프로젝트 1</span></a></li>
-            <li><a href="#project3"><HiOutlineSquare3Stack3D/><span>프로젝트 1</span></a></li>
+            <li><a href="#project"><GoProjectRoadmap /><span>Project</span></a></li>
+            {/* <li><a href="#project2"><GoProjectRoadmap /><span>프로젝트 2</span></a></li>
+            <li><a href="#project3"><GoProjectRoadmap /><span>프로젝트 3</span></a></li> */}
+            <li><a href="#skill"><HiOutlineSquare3Stack3D/><span>Skill</span></a></li>
           </ul>
         </div>
         </div>
      <div className={styles.main}>
-        <section className={styles.myinfo} id="안녕하세요저는송영준입니다.">
+        <section className={styles.myinfo} id="me">
           <Myinfo />
         </section>
-        <section className={styles.project}>
+        <section className={styles.project} id="project">
           <Projects/>
         </section>
-        <section className={styles.stackContainer} >
+        <section className={styles.stackContainer} id="skill" >
           <Mystack/>
         </section>
         </div>

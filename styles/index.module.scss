@@ -7,32 +7,33 @@
  
 }
 .main{
-  width:60vw;
+  width:65vw;
   max-width: 1200px;
+  position: relative;
 
   .myinfo{
     display: flex;
-    width:60vw;
+    width:65vw;
     max-width: 1200px;
     height:90vh;
     justify-content: center;
-  
+    border-bottom: 8px dashed black;
   }
   .project {
     display: flex;
     justify-content: space-between;
-    width:60vw;
+    width:65vw;
     max-width: 1200px;
-    height:250vh;
     flex-direction: column;
+    margin-top:10vh;
+    margin-bottom: 10vh;
     
   }
   
   .stackContainer{
-    width:60vw;
+    border-top: 8px dashed black;
+    width:65vw;
     max-width: 1200px;
-    height:100vh;
-    
     display: flex;
     justify-content: center;
   }
@@ -42,7 +43,7 @@
   top: 50%;
   transform: translateY(-50%);
   left: 2vw;
-  width: 5vw; // 초기 너비
+  width: 4vw; // 초기 너비
   height: 30vh;;
   z-index: 1000; // 다른 요소 위에 표시하기 위해 z-index 설정
 }
@@ -53,11 +54,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #AEBDCA;
-  width: 3vw; // 초기 너비
+  background-color: #F2BED1;
+  width: 4vw; // 초기 너비
   font-size: 20px;
   border-radius: 10px;
-  height: 40vh; // navbar의 높이
+  height: 30vh; // navbar의 높이
   transition: width 0.3s ease; // 너비에 대한 transition 추가
   position: relative; // 상대 위치 설정
 
@@ -66,10 +67,10 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-   
-    font-size: 30px;
-    width:3.3vw;
-    height:40vh;
+    margin-left:0.3vw;
+    font-size: 2vw;
+    width:4vw;
+    height:30vh;
 
     li {
       margin-bottom: 10px; // 각 항목 간격 조정
@@ -92,7 +93,7 @@
 
         svg {
           margin-right: 5px;
-          font-size: 100%; // 아이콘 크기 조정
+          font-size: 2vw; // 아이콘 크기 조정
           position: absolute; // 절대 위치 설정
           left: 10px; // 아이콘 왼쪽 여백 설정
           top: 50%; // 아이콘을 수직 중앙으로 정렬
@@ -112,11 +113,11 @@
         }
 
         &:hover {
-          background-color: #F5EFE6;
+      
           span {
           
             opacity: 1;
-            margin-left: 10px; // 텍스트와 아이콘 사이 간격 조정
+            margin-left: 20px; // 텍스트와 아이콘 사이 간격 조정
           }
         }
       }
