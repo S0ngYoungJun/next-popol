@@ -47,7 +47,7 @@ export default function Projects() {
               <li>Node.js</li>
             </ul> */}
             <div className={styles.link}>
-            <Link href="https://github.com/S0ngYoungJun/nextsand" legacyBehavior>
+            <Link href="https://github.com/S0ngYoungJun/team-coffee" legacyBehavior>
               <a target="_blank">GitHub 페이지</a>
             </Link>
             <Link href="https://nextsand.vercel.app/" legacyBehavior>
@@ -70,10 +70,10 @@ export default function Projects() {
               마커를 클릭해 특정 좌표로 비행기가 이동하고 비행기가 도착하면 모달창이 나오는 이벤트를 구현해서 사용자가 재미를 느끼도록 만들었습니다.
             </p>
             <div className={styles.link}>
-            <Link href="https://github.com/S0ngYoungJun/nextsand" legacyBehavior>
+            <Link href="https://github.com/S0ngYoungJun/Arthistory" legacyBehavior>
               <a target="_blank">GitHub 페이지</a>
             </Link>
-            <Link href="https://nextsand.vercel.app/" legacyBehavior>
+            <Link href="https://arthistory-tau.vercel.app/" legacyBehavior>
               <a target="_blank">URL</a>
             </Link>
             </div>

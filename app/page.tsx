@@ -5,12 +5,11 @@ import Projects from "@/components/Projects/projects";
 import { VscAccount,  } from 'react-icons/vsc';
 import { GoProjectRoadmap } from "react-icons/go";
 import { HiOutlineSquare3Stack3D } from "react-icons/hi2";
-import Flowerrain from "@/components/fallobject";
+
 
 export default function Home() {
   return (
     <main className={styles.root}>
-      <Flowerrain></Flowerrain>
       <div className={styles.navbarwrapper}>
       <div className={styles.navbar}>
           <ul>
@@ -34,6 +33,7 @@ export default function Home() {
           <Projects/>
         </section>
         <section className={styles.stackContainer} id="skill" >
+        
           <Mystack/>
         </section>
         </div>

@@ -1,9 +1,8 @@
 .project {
   display: flex;
   justify-content: space-between;
-  height:250vh;
   flex-direction: column;
-
+  
   li{
   float:left;
   margin-right:3vw;
@@ -22,10 +21,12 @@
   height: 70vh;
   display:flex;
   justify-content: space-around;
-  font-size: 1.2rem;
-  background-color: #F5EFE6;
+  background-color: white;
+  margin-top:10vh;
+  margin-bottom: 10vh;
+  font-size: 1.2vw;
   align-items: center;
-  border-radius: 2px;
+  border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 

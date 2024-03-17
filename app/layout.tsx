@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import localFont from 'next/font/local'
 import style from "@/styles/header.module.scss"
-import Image from "next/image";
+
 const myFont = localFont({
   src: '../public/fonts/AppleSDGothicNeoEB.ttf',
   display: 'swap',
@@ -22,9 +22,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={myFont.className}>
-        <header className={style.header}/>
+        <header className={style.header}>
+          SongYoungJun`s Portfolio
+        </header>
         {children}
         <footer className={style.foot}>
+        © 2024. Song Young Jun.
         </footer>
         </body>
     </html>

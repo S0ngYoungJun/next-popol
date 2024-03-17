@@ -7,35 +7,33 @@
  
 }
 .main{
-  width:65vw;
-  max-width: 1200px;
+  width:100vw;
   position: relative;
 
   .myinfo{
     display: flex;
-    width:65vw;
-    max-width: 1200px;
+    width:100vw;
+  
     height:90vh;
     justify-content: center;
     border-bottom: 8px dashed black;
+    background-color: #FFF3C7
   }
   .project {
     display: flex;
-    justify-content: space-between;
-    width:65vw;
-    max-width: 1200px;
-    flex-direction: column;
-    margin-top:10vh;
-    margin-bottom: 10vh;
-    
+    width:100w;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F5F6
   }
   
   .stackContainer{
     border-top: 8px dashed black;
-    width:65vw;
-    max-width: 1200px;
+    width:100vw;
+    align-items: center;
     display: flex;
     justify-content: center;
+    background-color: #FFF3C7;
   }
 }
 .navbarwrapper {
@@ -54,7 +52,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #F2BED1;
+  background-color: #A2B29F;
   width: 4vw; // 초기 너비
   font-size: 20px;
   border-radius: 10px;

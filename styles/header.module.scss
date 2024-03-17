@@ -1,13 +1,24 @@
 .header{
   width:100vw;
-  height:10vh;
+  height:13vh;
   position: relative;
-  background-color: #7895B2;
+  background-color: #0F4C75;
+  display:flex; 
+  color:white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
 }
 
 .foot{
   width:100vw;
-  height:10vh;
+  height:7vh;
   position: relative;
-  background-color: #F8E8EE;
+  background-color: #0F4C75;
+  color:white;
+  display:flex; 
+  font-size: 1.5vw;
+  justify-content: center;
+  align-items: center;
 }
