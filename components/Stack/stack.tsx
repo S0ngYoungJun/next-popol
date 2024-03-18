@@ -15,7 +15,7 @@ const iconPaths = [
   '/image/icon/NodeJS.svg',
   '/image/icon/NestJS-Light.svg',
   '/image/icon/MySQL-Light.svg',
-  '/image/icon/MongoDB.svg',
+  '/image/icon/Mongodb.svg',
   '/image/icon/Git.svg',
   '/image/icon/AWS-Light.svg',
   '/image/icon/Python-Light.svg',
