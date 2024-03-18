@@ -15,9 +15,11 @@ export default function Projects() {
             <div className={styles.info1}>
             <h1>도형을 쌓아 그림을 그려요. This is block</h1>
             <p>
-              물리엔진 matter-js 라이브러리와 클릭이벤트를 사용해 만든 웹페이지 입니다. 
-              matter.js 뿐만 아니라 다른 물리엔진 라이브러리(physics.js, Planck.js) 사용해보았습니다. matter.js가 부드럽게 보여서 matter.js로 선택했습니다. 그리고 도형과 벽을 만들기 위해 Canvas와 좌표값을 이용하는 부분을 중점적으로 공부했습니다.
-              사용자가 도형의 크기, 색깔, 모양, 배경색깔 등을 조절할 수 있게 만들었습니다. 스크린샷 기능을 통해 사용자가 자신이 만든 도형쌓기를 가져갈 수 있도록 했습니다.
+              물리엔진 matter-js 라이브러리와 Next.js를 사용해 만든 웹페이지 입니다.<br/>
+              여러 물리엔진 라이브러리(physics.js, Planck.js) 사용해보았고 그 중에서 matter.js로 선택했습니다. <br/>
+              도형과 벽을 만들기 위해 Canvas와 좌표값을 이용하는 부분을 중점적으로 공부했습니다.<br/>
+              사용자가 도형의 크기, 색깔, 모양, 배경색깔 등을 조절할 수 있게 만들었습니다. <br/>
+              스크린샷 기능을 통해 사용자가 자신이 만든 도형쌓기를 가져갈 수 있도록 했습니다.
             </p>
             {/* <ul>
               <li>Next.js</li>
