@@ -26,3 +26,32 @@
 }
 
 
+@media only screen and (max-width: 600px) {
+  .container{
+    width:60vw;
+    height:30vh;
+    position: relative; // Ensure the Swiper container has a relative position
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .cardcontainer{
+    display:flex;
+    width:60vw;
+    height:30vh;
+    flex-direction: column;
+    position: relative;
+  
+  }
+  
+  .card{
+    display:flex;
+    width:60vw;
+    height:30vh;
+    position: relative;
+    border-radius: 5%;
+  }
+  
+}

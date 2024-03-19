@@ -54,7 +54,7 @@
   align-items: center;
   background-color: #A2B29F;
   width: 4vw; // 초기 너비
-  font-size: 20px;
+  font-size: 1vw;
   border-radius: 10px;
   height: 30vh; // navbar의 높이
   transition: width 0.3s ease; // 너비에 대한 transition 추가
@@ -69,6 +69,7 @@
     font-size: 2vw;
     width:4vw;
     height:30vh;
+    justify-content: space-around;
 
     li {
       margin-bottom: 10px; // 각 항목 간격 조정
@@ -121,4 +122,53 @@
       }
     }
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .root{
+    width:100vw;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+   
+  }
+  .main{
+    width:100vw;
+    position: relative;
+  
+    .myinfo{
+      display: flex;
+      width:100vw;
+      height:90vh;
+      justify-content: center;
+      border-bottom: 8px dashed black;
+      background-color: #FFF3C7
+    }
+    .project {
+      display: flex;
+      width:100w;
+      justify-content: center;
+      align-items: center;
+      background-color: #F9F5F6
+    }
+    
+    .stackContainer{
+      border-top: 8px dashed black;
+      width:100vw;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      background-color: #FFF3C7;
+    }
+  }
+  .navbarwrapper {
+    display:none;
+  }
+  
+  .navbar {
+    display:none;
+  }
+  
+  /* 휴대폰 화면 크기에 따라 적용되는 CSS 규칙 */
 }

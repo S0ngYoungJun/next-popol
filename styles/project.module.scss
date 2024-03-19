@@ -63,3 +63,72 @@
   flex-direction: column;
   border-radius: 5%;
 }
+
+@media only screen and (max-width: 600px) {
+  .project {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    li{
+    float:left;
+    margin-right:3vh;
+    }
+    .link{
+      display: flex;
+      
+      a{
+      margin-right: 5vw;}
+    }
+  }
+  
+  .project1, .project2, .project3 {
+   
+    width: 70vw;
+    height: 65vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    margin-top:10vh;
+    margin-bottom: 10vh;
+    font-size: 1.2vh;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  
+  .ps1, .ps3{
+    width:60vw;
+    height:30vh;
+    display:flex;
+    position: relative;
+    box-shadow:0 0 0 0;
+  }
+  
+  .info1, .info3{
+    width:65vw;
+    height:30vh;
+    display:flex;
+    
+    flex-direction: column;
+    border-radius: 5%;
+  }
+  
+  .ps2{
+    width:60vw;
+    height:30vh;
+    display:flex;
+    position: relative;
+    box-shadow:0 0 0 0;
+   
+  }
+  
+  .info2{
+    width:65vw;
+    height:30vh;
+    display:flex;
+    flex-direction: column;
+    border-radius: 5%;
+  }
+}

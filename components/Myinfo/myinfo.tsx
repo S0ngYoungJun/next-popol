@@ -31,7 +31,7 @@ export default function Myinfo() {
             </tr>
             <tr>
               <td>연락처</td>
-              <td>010-3280-2490</td>
+              <td><img src="/image/tel.png"/></td>
             </tr>
             <tr>
               <td>GitHub <VscGithubInverted /></td>
@@ -42,7 +42,7 @@ export default function Myinfo() {
             <tr>
               <td>E-mail</td>
               <td>
-              clesaaaaaa@gmail.com
+              <img src="/image/email.png"/>
               <button onClick={copyToClipboard}>Copy</button>
               </td>
             </tr>

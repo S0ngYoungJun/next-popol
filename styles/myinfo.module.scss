@@ -2,7 +2,6 @@
   height:40vh;
   display:flex;
   width:65vw;
-  max-width: 1400px;
   flex-direction: column;
   background-color: #AEBDCA;
   border-radius: 5px;
@@ -28,6 +27,10 @@
     border-collapse: collapse;
     height:15vh;
     
+    img{
+      width:15vw;
+      height:4vh;
+    }
 
 
     td, th {
@@ -76,3 +79,84 @@
     }
 }
   
+
+@media only screen and (max-width: 600px) {
+  .myinfo{
+    height:90vh;
+    display:flex;
+    width:100vw;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  
+  .hello{
+      width: 85vw;
+     
+      height: 20vh;
+      display:flex;
+      text-align: center;
+      justify-content: center;
+      font-size: 2.5vh;
+      margin-bottom: 5vh;
+      margin-top:5vh;
+    }
+  
+  .table{
+      width: 80vw;
+      font-size: 1.5vh;
+      border-collapse: collapse;
+      height:50vh;
+      
+      img{
+        width:30vw;
+        height:4vh;
+      }
+  
+      td, th {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+        font-size: 1.5vh;
+      }
+      
+      td, th {
+        border-left: none;
+        border-right: none;
+      }
+      a{
+        text-decoration-line:none;
+        color: blue;
+      }
+      button{
+        margin-left:6vw;
+        text-align: center;
+        text-align: center;
+        width: 15vw;;
+        font-size: 1.5vh;
+        font-weight: 600;
+        color: #61677A;
+        cursor: pointer;
+        height: 3vh;
+        text-align:center;
+        border: none;
+        background-size: 300% 100%;
+        background-image: linear-gradient(to right, #EFEAD8, #D0C9C0, #D6D2C4, #D6D2C4);
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 #E5E1DA;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+      }
+      button:hover {
+        background-position: 100% 0;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+      }
+      button:focus {
+        outline: none;
+      }
+  }
+    
+}

@@ -38,3 +38,43 @@
 
 
 
+@media only screen and (max-width: 600px){
+  .skillContainer{
+    width:65vw;
+    height:60vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10vh;
+  }
+  
+  .skillinfo{
+    display:flex;
+    width:75vw;
+    font-size: 2.5vh;
+    justify-content: center;
+    text-align: center;
+    height:15vh;
+  }
+  
+  .iconContainer{
+   display: flex;
+   width:72vw;
+   height:30vh;
+   flex-wrap: wrap;
+   justify-content: space-around;
+  }
+  
+  .icons{
+    display:flex;
+    position: relative;
+    width:9vw;
+    height:5vh;
+    background: #F9F5F6;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  
+  
+}
