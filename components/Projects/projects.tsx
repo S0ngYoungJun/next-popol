@@ -81,7 +81,7 @@ export default function Projects() {
             </div>
             </div>
             </div>
-            <div className={styles.project4} id="#project4">
+            {/* <div className={styles.project4} id="#project4">
               <div className={styles.info4}>
               <h1>그림을 그려 소통해요.Shape of Voice</h1>
               <p>
@@ -100,7 +100,7 @@ export default function Projects() {
               <div className={styles.ps4}>
                 <Swiperproject4/>
               </div>
-          </div>       
+          </div>        */}
       </main>
   );
 }
