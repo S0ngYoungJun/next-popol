@@ -52,7 +52,7 @@ export default function Projects() {
             <Link href="https://github.com/S0ngYoungJun/team-coffee" legacyBehavior>
               <a target="_blank">GitHub 페이지</a>
             </Link>
-            <Link href="1" legacyBehavior>
+            <Link href="http://15.164.244.183/" legacyBehavior>
               <a target="_blank">URL</a>
             </Link>
             </div>

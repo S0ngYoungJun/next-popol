@@ -21,7 +21,7 @@ export default function Home() {
             <li><a href="#project"><GoProjectRoadmap /><span>Project</span></a></li>
             {/* <li><a href="#project2"><GoProjectRoadmap /><span>프로젝트 2</span></a></li>
             <li><a href="#project3"><GoProjectRoadmap /><span>프로젝트 3</span></a></li> */}
-            <li><a href="#skill"><HiOutlineSquare3Stack3D/><span>Skill</span></a></li>
+            <li><a href="#skill"><HiOutlineSquare3Stack3D/><span>Study</span></a></li>
           </ul>
         </div>
         </div>
