@@ -81,18 +81,18 @@ export default function Projects() {
             </div>
             </div>
             </div>
-            {/* <div className={styles.project4} id="#project4">
+            <div className={styles.project4} id="#project4">
               <div className={styles.info4}>
-              <h1>그림을 그려 소통해요.Shape of Voice</h1>
+              <h1>롤토체스 리롤 확률 계산기</h1>
               <p>
-                Next.js를 사용해 만든 커피원두 E-commerce 웹사이트입니다. 관리자 페이지에서 사용자 페이지에 보여지는 부분을 간편하게 조작할 수 있는점을 중점적으로 보고 제작하였습니다.
-                저는 팀프로젝트에서 메인페이지의 상단메뉴바, 상품 슬라이드, 회원가입,로그인, 상품 판매 상세페이지, 마이페이지, 결제 이후 서버에서 DB의 날짜를 조회해 자동으로 연장되는 구독시스템 등의 만드는 부분을 맡았습니다.
+                전략적 팀 전투(통칭 롤토체스) 리롤 확률 계산기 입니다. 게임에서 원하는 기물을 사고 싶으면 얼마나 리롤(상점 교환)을 눌러야하는지 기대값을 알아보기 위해 만들었습니다.
+                유저가 바로바로 내가 원하는 기물을 뽑기 위해 얼마가 필요하지 기대값을 산출해주기 위해 제작하려고합니다.    
               </p>
               <div className={styles.link}>
-              <Link href="https://github.com/S0ngYoungJun/team-coffee" legacyBehavior>
+              <Link href="https://github.com/S0ngYoungJun/tftcal" legacyBehavior>
                 <a target="_blank">GitHub 페이지</a>
               </Link>
-              <Link href="1" legacyBehavior>
+              <Link href="https://tftcal.vercel.app/" legacyBehavior>
                 <a target="_blank">URL</a>
               </Link>
               </div>
@@ -100,7 +100,7 @@ export default function Projects() {
               <div className={styles.ps4}>
                 <Swiperproject4/>
               </div>
-          </div>        */}
+          </div>       
       </main>
   );
 }
