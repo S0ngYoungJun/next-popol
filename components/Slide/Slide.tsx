@@ -13,23 +13,19 @@ const slideData = [
   {
     id: 1,
     text: '테스트 테스트',
-    imageUrl:'/image/project1/1.jpg'
+    imageUrl:'/image/project1/1.png'
   },
   {
     id: 2,
     text: '테스트 테스트',
-    imageUrl:'/image/project1/2.jpg'
+    imageUrl:'/image/project1/2.png'
   },
   {
     id: 3,
     text: '테스트 테스트',
-    imageUrl:'/image/project1/3.jpg'
+    imageUrl:'/image/project1/3.png'
   },
-  {
-    id: 4,
-    text: '테스트 테스트',
-    imageUrl:'/image/project1/4.jpg'
-  },
+  
 ]
 
 export default function SwiperTest() {

@@ -13,13 +13,11 @@ export default function Projects() {
               <SwiperTest/>
             </div>
             <div className={styles.info1}>
-            <h1>도형을 쌓아 그림을 그려요. stack block</h1>
+            <h1>TO do list</h1>
             <p>
-              물리엔진 matter-js 라이브러리와 Next.js를 사용해 만든 웹페이지 입니다.<br/>
-              여러 물리엔진 라이브러리(physics.js, Planck.js) 사용해보았고 그 중에서 matter.js로 선택했습니다. <br/>
-              도형과 벽을 만들기 위해 Canvas와 좌표값을 이용하는 부분을 중점적으로 공부했습니다.<br/>
-              사용자가 도형의 크기, 색깔, 모양, 배경색깔 등을 조절할 수 있게 만들었습니다. <br/>
-              스크린샷 기능을 통해 사용자가 자신이 만든 도형쌓기를 가져갈 수 있도록 했습니다.
+              간단하게 체크완료기능과 검색기능을 넣은 todolist입니다. 
+              React를 빌드속도를 향상시키기 위해 개발툴로 vite를 사용했습니다. 
+              Redux로 상태 관리를 구현했습니다.
             </p>
             {/* <ul>
               <li>Next.js</li>
@@ -38,9 +36,9 @@ export default function Projects() {
           </div>
           <div className={styles.project2} id="#project2">
             <div className={styles.info2}>
-            <h1>팀 프로젝트, 커피원두 E-commerce 웹사이트</h1>
+            <h1>커피원두 E-commerce 웹사이트</h1>
             <p>
-              Next.js를 사용해 만든 커피원두 E-commerce 웹사이트입니다. 관리자 페이지에서 사용자 페이지에 보여지는 부분을 간편하게 조작할 수 있는점을 중점적으로 보고 제작하였습니다.
+              Next.js를 사용해 만든 커피원두 E-commerce 웹사이트입니다. 팀프로젝트의 관리자 페이지에서 사용자 페이지에 보여지는 부분을 간편하게 조작할 수 있는점을 중점적으로 보고 제작하였습니다.
               저는 팀프로젝트에서 메인페이지의 상단메뉴바, 상품 슬라이드, 회원가입,로그인, 상품 판매 상세페이지, 마이페이지, 결제 이후 서버에서 DB의 날짜를 조회해 자동으로 연장되는 구독시스템 등의 만드는 부분을 맡았습니다.
             </p>
             {/* <ul>
@@ -85,8 +83,11 @@ export default function Projects() {
               <div className={styles.info4}>
               <h1>롤토체스 리롤 확률 계산기</h1>
               <p>
-                전략적 팀 전투(통칭 롤토체스) 리롤 확률 계산기 입니다. 게임에서 원하는 기물을 사고 싶으면 얼마나 리롤(상점 교환)을 눌러야하는지 기대값을 알아보기 위해 만들었습니다.
-                유저가 바로바로 내가 원하는 기물을 뽑기 위해 얼마가 필요하지 기대값을 산출해주기 위해 제작하려고합니다.    
+                물리엔진 matter-js 라이브러리와 Next.js를 사용해 만든 웹페이지 입니다.<br/>
+                여러 물리엔진 라이브러리(physics.js, Planck.js) 사용해보았고 그 중에서 matter.js로 선택했습니다. <br/>
+                도형과 벽을 만들기 위해 Canvas와 좌표값을 이용하는 부분을 중점적으로 공부했습니다.<br/>
+                사용자가 도형의 크기, 색깔, 모양, 배경색깔 등을 조절할 수 있게 만들었습니다. <br/>
+                스크린샷 기능을 통해 사용자가 자신이 만든 도형쌓기를 가져갈 수 있도록 했습니다.
               </p>
               <div className={styles.link}>
               <Link href="https://github.com/S0ngYoungJun/tftcal" legacyBehavior>
