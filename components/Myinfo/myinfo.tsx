@@ -15,7 +15,7 @@ export default function Myinfo() {
   return (
       <main className={styles.myinfo}>
         <div className={styles.hello}>
-          안녕하세요. 편안함을 찾고있는 개발자 송영준입니다. <br/>
+          안녕하세요. 신입프로그래머 송영준입니다. <br/>
           다양한 학습을 좋아하며 성장하는 습관을 만들기 위해 <br/>
           노력하고 있습니다.
         </div>
@@ -27,7 +27,7 @@ export default function Myinfo() {
             </tr>
             <tr>
               <td>나이</td>
-              <td>만 27세(1996년생)</td>
+              <td>만 28세(1996년생)</td>
             </tr>
             <tr>
               <td>연락처</td>

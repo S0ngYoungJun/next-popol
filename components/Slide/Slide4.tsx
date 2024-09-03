@@ -12,13 +12,23 @@ import Image from "next/image";
 const slideData = [
   {
     id: 1,
-    text: 'shape voice',
-    imageUrl:'/image/project4/1.png'
+    text: 'block',
+    imageUrl:'/image/project4/1.jpg'
   },
   {
     id: 2,
-    text: 'shape voice',
-    imageUrl:'/image/project4/2.png'
+    text: 'block',
+    imageUrl:'/image/project4/2.jpg'
+  },
+  {
+    id: 3,
+    text: 'block',
+    imageUrl:'/image/project4/3.jpg'
+  },
+  {
+    id: 4,
+    text: 'block',
+    imageUrl:'/image/project4/4.jpg'
   },
 ]
 

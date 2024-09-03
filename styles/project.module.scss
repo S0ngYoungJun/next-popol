@@ -18,7 +18,7 @@
 .project1, .project2, .project3 , .project4{
  
   width: 65vw;
-  height: 70vh;
+  height: 50vh;
   display:flex;
   justify-content: space-around;
   background-color: white;
@@ -32,7 +32,7 @@
 
 .ps1, .ps3{
   width:30vw;
-  height:60vh;
+  height:40vh;
   display:flex;
   position: relative;
   box-shadow:0 0 0 0;
@@ -40,16 +40,16 @@
 
 .info1, .info3{
   width:30vw;
-  height:65vh;
+  height:45vh;
   display:flex;
-  
+  justify-content: space-between;
   flex-direction: column;
   border-radius: 5%;
 }
 
 .ps2, .ps4{
   width:30vw;
-  height:60vh;
+  height:40vh;
   display:flex;
   position: relative;
   box-shadow:0 0 0 0;
@@ -58,8 +58,9 @@
 
 .info2, .info4{
   width:30vw;
-  height:65vh;
+  height:45vh;
   display:flex;
+  justify-content: space-between;
   flex-direction: column;
   border-radius: 5%;
 }
@@ -85,7 +86,7 @@
   .project1, .project2, .project3, .project4 {
    
     width: 70vw;
-    height: 65vh;
+    height: 45vh;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
@@ -100,7 +101,7 @@
   
   .ps1, .ps3{
     width:60vw;
-    height:30vh;
+    height:10vh;
     display:flex;
     position: relative;
     box-shadow:0 0 0 0;
@@ -108,7 +109,7 @@
   
   .info1, .info3{
     width:65vw;
-    height:30vh;
+    height:10vh;
     display:flex;
     
     flex-direction: column;
@@ -117,7 +118,7 @@
   
   .ps2, .ps4{
     width:60vw;
-    height:30vh;
+    height:10vh;
     display:flex;
     position: relative;
     box-shadow:0 0 0 0;
@@ -126,7 +127,7 @@
   
   .info2, .info4{
     width:65vw;
-    height:30vh;
+    height:10vh;
     display:flex;
     flex-direction: column;
     border-radius: 5%;
