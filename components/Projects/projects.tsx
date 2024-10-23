@@ -64,17 +64,16 @@ export default function Projects() {
               <Swiperproject3/>
             </div>
             <div className={styles.info3}>
-            <h1>유럽 미술사책을 한눈에 보기</h1>
+            <h1>Notion API/DB와 연동하여 개발한 블로그 준비사이트</h1>
             <p>
-              서양미술사 책을 읽다가 책의 흐름을 그림으로 한눈에 보면 좋겠다는 생각으로 제작하였습니다. 
-              Next.js에서 app router 기능을 중점적으로 공부하면서 layout을 통해 상태를 유지하고 Rerendering을 방지하면서 자체 경로 안의 컴포넌트와 UI를 쉽게 공유할 수 있는점을 생각하면서 어떻게 하면 더 유연하고 빠르게 페이지를 이동할수 있는지 고민했습니다.
-              마커를 클릭해 특정 좌표로 비행기가 이동하고 비행기가 도착하면 모달창이 나오는 이벤트를 구현했습니다.
+              별도의 데이터베이스 서버 없이 Notion API/DB와 연동하여 개발
+              현재는 일단 개인 기록용 노션기록, 차후 커뮤니티기능(댓글,좋아요)추가후 따로 배포할 예정
             </p>
             <div className={styles.link}>
-            <Link href="https://github.com/S0ngYoungJun/Arthistory" legacyBehavior>
+            <Link href="https://github.com/S0ngYoungJun/notion-blog" legacyBehavior>
               <a target="_blank">GitHub 페이지</a>
             </Link>
-            <Link href="https://arthistory-tau.vercel.app/" legacyBehavior>
+            <Link href="https://notion-blog-skhc-ki6iol0fj-songyoungs-projects.vercel.app/" legacyBehavior>
               <a target="_blank">URL</a>
             </Link>
             </div>
