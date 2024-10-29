@@ -67,7 +67,7 @@ export default function Projects() {
             <h1>Notion API/DB와 연동하여 개발한 블로그 준비사이트</h1>
             <p>
               별도의 데이터베이스 서버 없이 Notion API/DB와 연동하여 개발
-              현재는 일단 개인 기록용 노션기록, 차후 커뮤니티기능(댓글,좋아요)추가후 따로 배포할 예정
+              현재는 일단 개인 기록용 노션기록, 차후 커뮤니티기능(댓글,좋아요)추가후 따로 운영할 예정
             </p>
             <div className={styles.link}>
             <Link href="https://github.com/S0ngYoungJun/notion-blog" legacyBehavior>

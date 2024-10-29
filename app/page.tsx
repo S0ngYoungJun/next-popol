@@ -12,7 +12,7 @@ export default function Home() {
     <main className={styles.root}>
       <div className={styles.navbarwrapper}>
       <div className={styles.navbar}>
-          <ul>
+          <ul className={styles.ul}>
             <li><a href="#me"> 
               <VscAccount/>
               <span>Intro</span>

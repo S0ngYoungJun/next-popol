@@ -52,7 +52,7 @@ export default function Myinfo() {
             </tr>
             <tr>
               <td>활동</td>
-              <td>대전그린컴퓨터아트학원 수료 2023.08~2024.03</td>
+              <td>대전그린컴퓨터아트학원 수료 2023.08~2024.04</td>
             </tr>
           </tbody>
         </table>
