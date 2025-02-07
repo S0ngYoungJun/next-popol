@@ -11,7 +11,7 @@ const myFont = localFont({
 
 export const metadata: Metadata = {
   title: "SongYoungJun portfolio",
-  description: "안녕하세요. 신입개발자 송영준의 포트폴리오입니다.",
+  description: "안녕하세요. 송영준의 포트폴리오입니다.",
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
         </header>
         {children}
         <footer className={style.foot}>
-        © 2024. Song Young Jun.
+        © 2025. Song Young Jun.
         </footer>
         </body>
     </html>
