@@ -25,7 +25,7 @@ export default function Projects() {
               <li>canvas</li>
             </ul> */}
             <div className={styles.link}>
-            <Link href="https://github.com/S0ngYoungJun/nextsand" legacyBehavior>
+            <Link href="https://re-re-jade.vercel.app/" legacyBehavior>
               <a target="_blank">GitHub 페이지</a>
             </Link>
             <Link href="https://nextsand.vercel.app/" legacyBehavior>
@@ -70,7 +70,7 @@ export default function Projects() {
             <Link href="https://github.com/S0ngYoungJun/notion-blog" legacyBehavior>
               <a target="_blank">GitHub 페이지</a>
             </Link>
-            <Link href="https://notion-blog-skhc-ki6iol0fj-songyoungs-projects.vercel.app/" legacyBehavior>
+            <Link href="https://notion-blog-skhc.vercel.app/" legacyBehavior>
               <a target="_blank">URL</a>
             </Link>
             </div>
@@ -86,10 +86,10 @@ export default function Projects() {
                 스크린샷 기능을 통해 사용자가 자신이 만든 도형쌓기를 가져갈 수 있도록 했습니다.
               </p>
               <div className={styles.link}>
-              <Link href="https://github.com/S0ngYoungJun/tftcal" legacyBehavior>
+              <Link href="https://github.com/S0ngYoungJun/nextsand" legacyBehavior>
                 <a target="_blank">GitHub 페이지</a>
               </Link>
-              <Link href="https://tftcal.vercel.app/" legacyBehavior>
+              <Link href="https://nextsand.vercel.app" legacyBehavior>
                 <a target="_blank">URL</a>
               </Link>
               </div>
