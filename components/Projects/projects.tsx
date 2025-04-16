@@ -25,10 +25,10 @@ export default function Projects() {
               <li>canvas</li>
             </ul> */}
             <div className={styles.link}>
-            <Link href="https://re-re-jade.vercel.app/" legacyBehavior>
+            <Link href="https://github.com/S0ngYoungJun/re-re" legacyBehavior>
               <a target="_blank">GitHub 페이지</a>
             </Link>
-            <Link href="https://nextsand.vercel.app/" legacyBehavior>
+            <Link href="https://re-re-jade.vercel.app/" legacyBehavior>
               <a target="_blank">URL</a>
             </Link>
             </div>
@@ -40,6 +40,8 @@ export default function Projects() {
             <p>
               Next.js를 사용해 만든 커피원두 E-commerce 웹사이트입니다. 팀프로젝트의 관리자 페이지에서 사용자 페이지에 보여지는 부분을 간편하게 조작할 수 있는점을 중점적으로 보고 제작하였습니다.
               저는 팀프로젝트에서 메인페이지의 상단메뉴바, 상품 슬라이드, 회원가입,로그인, 상품 판매 상세페이지, 마이페이지, 결제 이후 서버에서 DB의 날짜를 조회해 자동으로 연장되는 구독시스템 등의 만드는 부분을 맡았습니다.
+              현재 데이터 베이스 손실로 사이트를 닫았습니다.
+
             </p>
             {/* <ul>
               <li>Next.js</li>
